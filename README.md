@@ -1,5 +1,7 @@
 # React Chat Application
 
+[Live URL](https://acgeoffrey.github.io/react-chat-app/)
+
 ## Features
 
 - This is a simple single page application, which has a text box and a button to send the chat.

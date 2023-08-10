@@ -1,0 +1,79 @@
+.container {
+  height: 100%;
+  margin-bottom: 6rem;
+  /* border: 2px solid var(--color-border); */
+  border-radius: 2rem;
+  padding: 2rem;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.chatDiv {
+  display: flex;
+  gap: 1rem;
+}
+
+.userImg {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  /* border: 3px solid black; */
+  background-color: #ffe17b;
+}
+
+.image {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.messageLikesDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.message {
+  padding: 0.5rem 0.7rem;
+  background-color: #f2ee9d;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.likes {
+  /* background-color: var(--color-accent); */
+  border: 0.7px solid var(--color-border-dark);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.likes:hover {
+  background-color: #f2ee9d72;
+}
+
+.userTimeDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+}
+
+.user {
+  color: rgb(72, 72, 72);
+  font-size: 0.8rem;
+}
+
+.time {
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.828);
+}

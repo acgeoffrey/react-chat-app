@@ -1,8 +1,16 @@
-# React + Vite
+# React Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- This is a simple single page application, which has a text box and a button to send the chat.
+- On clicking the button, the messages will be shown in the chat container above the input box.
+- For each message, the users are randomly assigned from a list of users.
+- Like button next to the messages which will increase the like count.
+- There is a emoji menu to send emojis in the chat.
+- There is a mention(@) feature, on typing '@' the list of users are shown from the users list as we type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+
+![Alt text](./image-1.png)
+![Alt text](./image.png)
+![Alt text](./image-2.png)
